@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экскурсия в Эрмитаж — Зимний дворец</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+<body>
+
+    <header>
+        <h1>Экскурсионное бюро «Белые ночи»</h1>
+    </header>
+
+    <div class="description">
+        <h2><a href="index.html">Все экскурсии</a> 〉Экскурсия в Эрмитаж — Зимний дворец</h2>
+        <p class="cost"><i>Цена: от 2750 ₽.</i></p>
+        <p>Посещение Эрмитажа — обязательная часть поездки в Северную столицу. Это второй самый большой художественный музей в мире после Лувра. Он является не только одной из главных достопримечательностей Санкт-Петербурга, но и всей России. Коллекция этого учреждения, основанного Екатериной II, состоит более чем из 3 миллионов экспонатов.</p>
+        <h3>Эрмитаж сегодня</h3>
+        <p><img src="images/hermitage1.jpg" width=300px align="left" vspace=5px hspace=5px>Сегодня экспозиция Эрмитажа занимает семь зданий. Главное из них — Зимний дворец. Современный Эрмитаж — это уникальный музей. Здесь можно изучать экспонаты, одновременно любуясь интерьерами дворцовых залов. Они поражают своей красотой.</p>
+        <p>Коллекция Эрмитажа огромна.</p>
+        <p>Здесь можно найти экспонаты начиная от орудий труда человека каменного века и заканчивая сегодняшним днём. В музее посетители могут увидеть картины известных средневековых западных художников. Среди них «Мадонна Лита», написанная в XV веке и приписываемая Леонардо Да Винчи, «Апостолы Пётр и Павел», написанная Эль Греко в XVI веке.</p>
+        <p>Трудно здесь перечислить даже малую часть экспонатов музея. Описывать красоту и величие его занятие бессмысленное. Лучше всё увидеть своими глазами. Поэтому, оказавшись в Санкт-Петербурге, надо обязательно посетить один из величайших музеев мира — Эрмитаж.</p>
+        <h3>Что включено</h3>
+        <img src="images/hermitage2.jpg" width=300px align="right" vspace=5px hspace=5px>
+        <ul>
+            <li>Входной билет в музей (без очереди), действительный только на день и время, указанные в ваучере;</li>
+            <li>Экскурсия с гидом в мини группе не более 8 человек</li>
+        </ul>
+        <h3>Какие места вы увидите</h3>
+        <ul>
+            <li>Парадные залы Зимнего дворца</li>
+            <li>Интерьеры Малого, Нового и Старого Эрмитажа</li>
+            <li>Шедевры Западно-Европейского искусства из коллекции Государственного Эрмитажа</li>
+        </ul>
+        <p><a href="index.html">← Вернуться к меню</a></p>
+        <section>
+            <a name="book"><h2 align="center">Забронировать экскурсию</h2></a>
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="tour"><font color="red">*</font> Выберите экскурсию:</label></td>
+                        <td><select id="tour" name="tour">
+                            <option value="tour1">Ночная экскурсия в Михайловский замок</option>
+                            <option value="tour2">Экскурсия в Выборг на 1 день</option>
+                            <option value="tour3">Экскурсия в Дом Зингера</option>
+                            <option selected value="tour4">Экскурсия в Эрмитаж — Зимний дворец</option>
+                            <option value="tour5">Экскурсия по крышам Невского проспекта</option>
+                            <option value="tour6">Экскурсия в Петергоф</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name"><font color="red">*</font> Ваше имя:</label></td>
+                        <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone"><font color="red">*</font> Ваш телефон:</label></td>
+                        <td><input type="tel" id="phone" name="phone" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email"><font color="red">*</font> Ваш email:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="comment">Комментарий к экскурсии:</label></td>
+                        <td><input type="text" id="comment" name="comment"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2"><button type="submit">Забронировать</button></th>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2023</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экскурсионное бюро</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+<body>
+
+    <header>
+        <h1>Экскурсионное бюро «Белые ночи»</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2 class="header2">Все экскурсии</h2>
+            <div class="all-tours">
+                <div class="tour-card">
+                    <h3>Ночная экскурсия в Михайловский замок</h3>
+                    <div class="pic"><a href="tour01.html"><img src="images/Michael's_Castle.jpg" class="pic"></a></div>
+                    <p>Цена: от 2500 ₽.</p>
+                    <div class="card-buttons">
+                        <a class="btn" href="tour01.html">Подробнее</a>
+                        <a class="btn" href="#book">Перейти к бронированию</a>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <h3>Экскурсия в Выборг на 1 день</h3>
+                    <div class="pic"><a href="tour02.html"><img src="images/Vyborg.jpg" class="pic"></a></div>
+                    <p>Цена: от 1900 ₽.</p>
+                    <div class="card-buttons">
+                        <a class="btn" href="tour02.html">Подробнее</a>
+                        <a class="btn" href="#book">Перейти к бронированию</a>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <h3>Экскурсия в Дом Зингера</h3>
+                    <div class="pic"><a href="tour03.html"><img src="images/zinger_dom.jpg" class="pic"></a></div>
+                    <p>Цена: от 1500 ₽.</p>
+                    <div class="card-buttons">
+                        <a class="btn" href="tour03.html">Подробнее</a>
+                        <a class="btn" href="#book">Перейти к бронированию</a>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <h3>Экскурсия в Эрмитаж — Зимний дворец</h3>
+                    <div class="pic"><a href="tour04.html"><img src="images/Hermitage.jpg" class="pic"></a></div>
+                    <p>Цена: от 2750 ₽.</p>
+                    <div class="card-buttons">
+                        <a class="btn" href="tour04.html">Подробнее</a>
+                        <a class="btn" href="#book">Перейти к бронированию</a>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <h3>Экскурсия по крышам Невского проспекта</h3>
+                    <div class="pic"><a href="tour05.html"><img src="images/roofs.jpg" class="pic"></a></div>
+                    <p>Цена: от 750 ₽.</p>
+                    <div class="card-buttons">
+                        <a class="btn" href="tour05.html">Подробнее</a>
+                        <a class="btn" href="#book">Перейти к бронированию</a>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <h3>Экскурсия в Петергоф</h3>
+                    <div class="pic"><a href="tour06.html"><img src="images/Peterhof.jpg" class="pic"></a></div>
+                    <p>Цена: от 1000 ₽.</p>
+                    <div class="card-buttons">
+                        <a class="btn" href="tour06.html">Подробнее</a>
+                        <a class="btn" href="#book">Перейти к бронированию</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <a name="book"><h2 class="header2">Забронировать экскурсию</h2></a>
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="tour"><font color="red">*</font> Выберите экскурсию:</label></td>
+                        <td><select id="tour" name="tour">
+                            <option value="tour1">Ночная экскурсия в Михайловский замок</option>
+                            <option value="tour2">Экскурсия в Выборг на 1 день</option>
+                            <option value="tour3">Экскурсия в Дом Зингера</option>
+                            <option value="tour4">Экскурсия в Эрмитаж — Зимний дворец</option>
+                            <option value="tour5">Экскурсия по крышам Невского проспекта</option>
+                            <option value="tour6">Экскурсия в Петергоф</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name"><font color="red">*</font> Ваше имя:</label></td>
+                        <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone"><font color="red">*</font> Ваш телефон:</label></td>
+                        <td><input type="tel" id="phone" name="phone" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email"><font color="red">*</font> Ваш email:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="comment">Комментарий к экскурсии:</label></td>
+                        <td><input type="text" id="comment" name="comment"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2"><button type="submit">Забронировать</button></th>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2023</p>
+    </footer>
+
+</body>
+</html>
