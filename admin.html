@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страничка админа</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+<body>
+
+    <header>
+        <h1>Поступившие заказы</h1>
+    </header>
+
+    <div class="description">
+        <p><a href="index.html">← Вернуться на сайт</a></p>
+        <section id="offers">
+            <a name="book"><h2 align="center">Добавить заказ</h2></a>
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="tour"><font color="red">*</font> Выберите экскурсию:</label></td>
+                        <td><select id="tour" name="tour">
+                            <option selected value="tour1">Ночная экскурсия в Михайловский замок</option>
+                            <option value="tour2">Экскурсия в Выборг на 1 день</option>
+                            <option value="tour3">Экскурсия в Дом Зингера</option>
+                            <option value="tour4">Экскурсия в Эрмитаж — Зимний дворец</option>
+                            <option value="tour5">Экскурсия по крышам Невского проспекта</option>
+                            <option value="tour6">Экскурсия в Петергоф</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name"><font color="red">*</font> Имя заказчика:</label></td>
+                        <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone"><font color="red">*</font> Телефон заказчика:</label></td>
+                        <td><input type="tel" id="phone" name="phone" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email"><font color="red">*</font> E-mail заказчика:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="comment">Комментарий к экскурсии:</label></td>
+                        <td><input type="text" id="comment" name="comment"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2"><button type="submit">Добавить</button></th>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>No Copyright <img src="images/Cc-public_domain_mark.svg" class="nocopy"> 2023</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
