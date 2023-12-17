@@ -132,6 +132,19 @@ footer {
     box-shadow: 0 0 0 2px white, 0 0 0 4px #973a45;
 }
 
+.adminbox {
+    color: white;
+    background-color: #333;
+    padding: 0.5em;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+
+.adminbox input {
+    width: 50%;
+}
+
 .illustration {
     width: 300px;
 }
